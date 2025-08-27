@@ -1,0 +1,133 @@
+/* estilos.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb; /* Deixei o fundo mais claro e suave */
+  margin: 0;
+  padding: 0;
+  color: #444; /* cor texto suave */
+}
+
+/* Mantive suas cores, só suavizei e acrescentei sombra */
+header {
+  background-color: #00796b; /* verde petróleo mais suave */
+  color: #e0f2f1; /* tom clarinho para contraste suave */
+  padding: 25px 20px; /* um pouco mais de espaço */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.3); /* sombra suave */
+  border-radius: 0 0 15px 15px; /* bordas arredondadas na base */
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav {
+  background-color: #004d40; /* mantive seu verde escuro */
+  padding: 12px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 77, 64, 0.3); /* sombra sutil */
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 30px;
+}
+
+/* Cor do navigação*/
+
+nav a {
+  color: #a7ffeb; /* verde clarinho para links */
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+/* Cor do navigação*/
+nav a:hover {
+  color: #004d40; /* texto escuro no hover */
+  background-color: #a7ffeb; /* fundo clarinho */
+  transform: scale(1.1);
+  box-shadow: 0 2px 10px rgba(167, 255, 235, 0.6);
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 35px 40px; /* um pouco mais de espaço */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* sombra mais suave e leve */
+  text-align: center;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+main:hover {
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+button {
+  background-color: #00796b; /* verde petróleo suave */
+  color: #e0f2f1; /* texto clarinho */
+  padding: 14px 28px;
+  margin: 15px 10px 0 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px; /* mais arredondado */
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,121,107,0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,77,64,0.5);
+}
+
+/* Main do Carbonização*/
+.conteudo {
+  max-width: 800px;
+  margin: auto;
+  color: #0d0d0e;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.07); /* sombra mais leve */
+  text-align: left;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.conteudo:hover {
+  box-shadow: 0 0 25px rgba(0,0,0,0.15);
+}
+
+/* Body de Descarboização*/
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7f1; /* verde muito claro, suave e agradável */
+  margin: 0;
+  padding: 40px 20px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 18px rgba(20, 14, 15, 0.15);
+  color: #1b1b19; /* texto verde escuro */
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.body:hover {
+  background-color: #b2dfdb; /* verde um pouco mais forte no hover */
+}
+
+/* Fooder */
+/* FOOTER */
+    footer{position:relative; 
+      padding:20px 28px; 
+      text-align:right; 
+      color:#02085a; 
+      opacity:.9}
+    footer p{margin:0}
+
